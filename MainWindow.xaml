@@ -6,13 +6,9 @@
         xmlns:local="clr-namespace:VendingKioskUI"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+
     <Grid>
-        <DataGrid ItemsSource="{Binding RemovedTags}" AutoGenerateColumns="False" Margin="10">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="EPC" Binding="{Binding EPC}" Width="*"/>
-                <DataGridTextColumn Header="TID" Binding="{Binding TID}" Width="*"/>
-                <DataGridTextColumn Header="Last Seen" Binding="{Binding LastSeen}" Width="150"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
