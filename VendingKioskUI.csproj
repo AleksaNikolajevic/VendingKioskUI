@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Reference Include="GReaderApi">
-      <HintPath>..\..\Documents\SDK-EN-20250424\Api\C#\GReaderApi.dll</HintPath>
+      <HintPath>..\..\documents\SDK-EN-20250424\Api\C#\GReaderApi.dll</HintPath>
     </Reference>
   </ItemGroup>
 

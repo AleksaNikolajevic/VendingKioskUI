@@ -27,5 +27,7 @@ namespace VendingKioskUI
             InitializeComponent();
             MainFrame.Navigate(new Page2());
         }
+
+
     }
 }

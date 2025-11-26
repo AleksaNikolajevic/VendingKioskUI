@@ -19,6 +19,7 @@ Click="GoToSecondPage_Click"/>
                     <DataGridTextColumn Header="EPC" Binding="{Binding EPC}" Width="*"/>
                     <DataGridTextColumn Header="TID" Binding="{Binding TID}" Width="*"/>
                     <DataGridTextColumn Header="Last Seen" Binding="{Binding LastSeen}" Width="150"/>
+                    <DataGridTextColumn Header="Ime" Binding="{Binding Name}" Width="150"/>
                 </DataGrid.Columns>
             </DataGrid>
         </StackPanel>
